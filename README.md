@@ -1,6 +1,6 @@
 # Cihan Baran | Junior Front End Developer - Website Template
 
-My personal [website](https://c1hanbaran.github.io){:target='_blank'} template.
+My personal <a href="https://c1hanbaran.github.io" target="_blank" >website</a> template.
 Feel free to use and change this template. HTML5, MaterializeCSS and Sass used in development.
 
 ## Download & Use
