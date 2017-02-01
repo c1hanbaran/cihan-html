@@ -5,7 +5,7 @@
 
 
 #about
-  p, h5
+  h5
     margin: 0
     padding: 0
   h5
@@ -24,10 +24,16 @@
     font-weight: bold
   .experience
     margin-bottom: $layout-margin-bottom * 0.5
+    p
+      margin: 0
   .education
     margin-bottom: $layout-margin-bottom * 0.5
+    p
+      margin: 0
+  .language
+    p
+      margin: 0
   .about-me
-    margin-top: $layout-margin-top * 1.5
     margin-bottom: $layout-margin-bottom * 1.5
     text-align: center
   span
@@ -43,6 +49,8 @@
       width: 100%
       margin-bottom: $layout-margin-bottom
     .testimonial-content
+      p
+        margin: 0
       &::before
         content:  url('../images/open-quote.png')
 

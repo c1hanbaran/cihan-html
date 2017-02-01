@@ -14,3 +14,13 @@ a.mobile-logo
   text-decoration: none
   &:hover
     color: #FFFFF
+
+//jQuery screen-size check
+#screen-size-check
+  float: left
+  @media #{$large-screen}
+    float: none
+
+@media #{$large-screen}
+  .no-parallax
+    display: none
